@@ -1,6 +1,5 @@
 function gradeResult() {
 	var myResult = parseInt(document.getElementById("value1").value);
-	var myIrishResult = parseInt(document.getElementById("value2").value);
 	var englishGrade;
 	
 	if (!myResult) {
@@ -25,7 +24,7 @@ function gradeResult() {
 			englishGrade = 'F';
 		}
 		
-		var message1 = 'You got a result of: ' + englishGrade + 'in English';
+		var message1 = 'You got a result of: ' + englishGrade + ' in English';
 		console.log(message1);
 		document.getElementById("resultsentence1").innerHTML = message1;
 	}
@@ -55,8 +54,8 @@ function gradeResult() {
 			irishGrade = 'F';
 		}
 		
-		var message2 = 'You got a result of: ' + irishGrade + 'in Irish';
-		console.log(message);
+		var message2 = 'You got a result of: ' + irishGrade + ' in Irish';
+		console.log(message2);
 		document.getElementById("resultsentence2").innerHTML = message2;
 	}
 	
@@ -85,8 +84,8 @@ function gradeResult() {
 			mathsGrade = 'F';
 		}
 		
-		var message3 = 'You got a result of: ' + mathsGrade + 'in Irish';
-		console.log(message);
+		var message3 = 'You got a result of: ' + mathsGrade + ' in Maths';
+		console.log(message3);
 		document.getElementById("resultsentence3").innerHTML = message3;
 	}
 }
